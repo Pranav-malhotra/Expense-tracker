@@ -1,0 +1,167 @@
+.bod{
+    font-family: 'Poppins', sans-serif;
+    background:#025159   ;
+}
+
+#box {
+    margin: auto;
+    padding: 10px 10px;
+    
+}
+
+.container1{
+    width: 80%;
+    margin: auto;
+    border-radius: 79px;
+    background: #CACACA;
+    box-shadow:  50px 50px 60px#3E848C, 
+                 -50px -50px 100px #3E848C;
+    margin-top: 2rem;
+}
+#header{
+    color: rgba(13, 13, 13, 0.842);
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#closing{
+    padding-top: 10px;
+    padding-left: 6rem;
+    color:black;
+    font-family:'Poppins',sans-serif    ;
+
+}
+#cbalance{
+    color:black;
+    padding-left: 6rem;
+    font-family: 'Poppins', sans-serif;
+}
+.income{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 50%;
+    background-color:#878787 ;
+    padding-top:5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+.expense{
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+    background-color:#878787;
+    text-align: center;
+    padding-top:5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+
+
+input[type="text"]{
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 2px solid rgb(107, 164, 173);
+    margin-bottom: 10px;
+    font-size: 17px;    
+
+}
+
+input[type="number"]{
+    background-color: #F2F2F2;
+    border: none;
+}
+
+input[type="number"]:focus{
+    color: black;
+    box-shadow: none;
+    outline: none;
+
+}
+.form{
+    margin-top: 80px;
+}
+::placeholder{
+    font-size: 18px;
+    color: rgb(93, 96, 96);
+}
+.sideicon{
+    background-color: rgba(147, 143, 143, 0.7);
+    padding: .4rem;
+    border-radius: 5px;
+    color: rgb(245, 237, 237);
+}
+#form-label{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.btn-div{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button{
+    border: none;
+    background: #2a7dd694;
+    color: #000000 !important;
+    font-weight:bolder;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button:hover{
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: #86c5d8;
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.685);
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+.button:focus{
+    outline: none;
+}
+#transaction_record{
+    width: 53%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+   
+}
+.tran_his{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+#history{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 79px;
+    background: #a6a6a4;
+    
+    font-size: 25px;
+    padding: 5px;
+}
